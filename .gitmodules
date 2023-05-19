@@ -1,0 +1,6 @@
+[submodule "libBasexCpp"]
+	path = libBasexCpp
+	url = ../libBasexCpp
+[submodule "libBasexTest"]
+	path = libBasexTest
+	url = ../libBasexTest
