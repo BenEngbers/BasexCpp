@@ -1,0 +1,13 @@
+C++ client for BaseX
+
+Alpha 9.0
+
+Requirements Curlpp
+
+libBasexTest and libBasexCpp are separate projects. After setting up the basic directory structure both projects were created using the command "cmake -G"Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug  ."
+
+Basex is an Open Source XML database. Basex is installed by running one of the installation files that can be downloaded from https://basex.org/download/. After installation from the ZIP file, you only need to create a password for the administrator.
+
+BasexCpp is intended to provide a C++ client that implements the full server protocol (https://docs.basex.org/wiki/Server_Protocol). Many other programming languages provide a C or C++ interface. Compiling libBasexCpp as a shared object makes it easier to develop bridges to Basex. It is therefore planned to add code to libBasexCpp to compile this project to a shared object.
+
+According to the server protocol, the communication between the client and the server uses zero-terminated utf8 strings or raw data. For the development of libBasexCpp, it eventually proved advantageous to base communication between client and server on raw data. Raw data is implemented here as std::vector<std::byte>>.
