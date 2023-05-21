@@ -4,7 +4,7 @@ Alpha 9.0
 
 Requirements Curlpp
 
-libBasexTest and libBasexCpp are separate projects. After setting up the basic directory structure both projects were created using the command "cmake -G"Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug  ."
+libBasexTest and libBasexCpp are separate projects. Issuing the command "cmake -G"Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug  ." creates Eclipse CMake projects which can be imported into Eclipse.
 
 Basex is an Open Source XML database. Basex is installed by running one of the installation files that can be downloaded from https://basex.org/download/. After installation from the ZIP file, you only need to create a password for the administrator.
 
