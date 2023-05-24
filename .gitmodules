@@ -1,6 +1,6 @@
 [submodule "libBasexTest"]
 	path = libBasexTest
-	url = git@github.com:BenEngbers/BasexCpp.git
+	url = libBasexTest
 [submodule "libBasexCpp"]
 	path = libBasexCpp
-	url = git@github.com:BenEngbers/BasexCpp.git
+	url = libBasexCpp
