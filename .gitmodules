@@ -1,0 +1,3 @@
+[submodule "library/libBasexCpp.git"]
+	path = library/libBasexCpp.git
+	url = git@github.com:BenEngbers/libBasexCpp.git
